@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<title>E. Alexander Haywood -- Official Development Portfolio</title>
+	<meta charset="UTF-8" />
+
+	<link rel="stylesheet" href="portfolio.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="body">
+
+	<header class="mainHeader">
+		<img src="img/bal.jpg" alt="O's">
+
+		<nav><ul>
+			<li><a href="index">Home</a></li>
+			<li class="active"><a href="portfolio">Portfolio</a></li>
+			<li><a href="blog">Blog</a></li>
+			<li><a href="contact">Contact</a></li>
+		</ul></nav>
+	</header>
+
+	<div class="mainContent">
+		<div class="content">
+			<article class="topcontent">
+				<header>
+					<h2><a href="#" title="Web Projects">Web Projects</a></h2>
+				</header>
+
+				<footer>
+					<p class="post-info">This was updated by Alex on 7/15/14 @ 4:07 PM EST</p>
+				</footer>
+
+					<p><strong>Project 1</strong> - <a href="http://ealexhaywood.com">ealexhaywood.com</a> - The site will be used to monitor and document my journey in web development.
+						<ul>
+							<li>Built a personal site with a responsive design (HTML5/CSS3) from scratch using Eclipse w/ Aptana Studio Plugin.</li>
+							<li>Used NPM (Node package manager) to utilize Grunt to minify code for optimal speed.</li>
+							<li>Features a home page, portfolio page, blog page, and a contact page.</li>
+							<li>Implemented just a touch of jQuery.js for cool page effects.</li>
+							<li><strong>COMING SOON!</strong>  Implentation of <strong>Sass</strong> (Syntactically Awesome Style Sheets) and more <strong>jQuery</strong> to improve overall site functionality and design</li>
+							<li>You can view all code for this project on GitHub at <a href="https://github.com/ealexhaywood/WebDevelopment">https://github.com/ealexhaywood/WebDevelopment</a></li>
+						</ul>
+					</p>
+
+					<p><strong>Project 2</strong> - <a href="img/heezler.jpg">Heezler.com</a> (Currently in Development) - A social networking website.
+						<ul>
+							<li>Templated with Yeoman's Webapp generator (Yo/Bower/Grunt)</li>
+							<li>Beautiful responsive layout using Bootstrap/Sass/LESS.</li>
+							<li>Highly interactive user experience with jQuery.</li>
+							<li><strong>COMING SOON!</strong> Implementation of back-end technologies such as Node.js, MongoDB, C#.NET, ASP.NET MVC, etc. to support, store, and protect user data.</li>
+							<li>You can view all code for this project on GitHub at <a href="https://github.com/ealexhaywood/MockTwitter">https://github.com/ealexhaywood/MockTwitter</a></li>
+						</ul>
+					</p>
+
+					<p><strong>Project 3</strong> - jHelper.com (Currently in Development) - A tutorial site that demonstrates JavaScript/jQuery basics.
+						<ul>
+							<li>Main purpose of site is to introduce beginners to the magic of JavaScript and jQuery, and highlight the fun/useful features.  Weekly lessons will be posted.</li>
+							<li>Coded mainly from scratch (HTML5/CSS3/JavaScript) with a responsive design using Sublime Text in a Linux environment.</li>
+							<li>Incorporated some Twitter Bootstrap components to the UI.</li>
+							<li>You can view all code for this project on GitHub at <a href="https://github.com/ealexhaywood/jHelper">https://github.com/ealexhaywood/jHelper</a></li>
+						</ul>
+
+					<p><strong>Project 4</strong> - Possibly a mobile app?
+						<ul>
+							<li>This is further off in the future, but perhaps the development of a nice mobile app.</li>
+							<li>More info to come soon!</li>
+						</ul>
+
+					</p>
+			</article>
+
+			<article class="bottomcontent">
+				<header>
+					<h2><a href="#" title="Java/C++ Projects">Java/C++ Projects</a></h2>
+				</header>
+
+				<footer>
+					<p class="post-info">This was updated by Alex on 7/15/14 @ 4:11 PM EST</p>
+				</footer>
+
+
+					<p>I will be posting projects in C++ here later this year.  Projects will showcase core C++ fundamentals and demonstrate strong knowledge of object-oriented design patterns.</p>
+
+
+			</article>
+
+		</div>
+	</div>
+
+	<aside class="top-sidebar">
+		<article>
+			<h2>Downloads</h2>
+			<p>Click on the link below to download my resume.</p>
+			<a href="files/AlexHaywood_ResumeTechWeb.pdf" download>E. Alex Haywood Resume</a>
+		</article>
+	</aside>
+
+	<aside class="middle-sidebar">
+		<article>
+			<h2>Additional Info</h2>
+			<p>Some pertinent info</p>
+		</article>
+	</aside>
+
+
+
+
+	<footer class ="mainFooter">
+		<p>Copyright &copy; 2014 <a href="index" title="ealexhaywood">ealexhaywood.com</a></p>
+	</footer>
+
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+
+<script>
+	$(document).ready(function() {
+		$('.topcontent').hide().slideDown(1000);
+		$('.bottomcontent').hide().slideDown(1000);
+		$('.top-sidebar').hide().slideDown(1000);
+		$('.middle-sidebar').hide().slideDown(1000);
+	});
+</script>
+
+
+</body>
+
+
+
+</html>

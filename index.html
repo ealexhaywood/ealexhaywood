@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<title>E. Alexander Haywood -- Official Development Home</title>
+	<meta charset="UTF-8" />
+
+	<link rel="stylesheet" href="default.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="body">
+
+	<header class="mainHeader">
+		<img src="img/bal.jpg" alt="O's">
+
+		<nav><ul>
+			<li class="active"><a href="index">Home</a></li>
+			<li><a href="portfolio">Portfolio</a></li>
+			<li><a href="blog">Blog</a></li>
+			<li><a href="contact">Contact</a></li>
+		</ul></nav>
+	</header>
+
+	<div class="mainContent">
+		<div class="content">
+			<article class="topcontent">
+				<header>
+					<h2><a href="#" title="First post">Welcome to my first website!</a></h2>
+				</header>
+
+				<footer>
+					<p class="post-info">This post was written by Alex on 7/15/14 @ 1:51 EST</p>
+				</footer>
+
+
+					<p>Here it is!  Welcome to my professional web development site.  Here you'll find posts about general things I'm interested in.  For example O's baseball, Joe Flacco, delicious steaks, craft beers, and just about any other random/weird thing you could think of--it'll all be here!</p>
+					<p><strong>On a more serious note</strong>, please feel free to browse through the site and have a look at my current <a href="portfolio">portfolio</a>, my <a href="blog">blog</a>, and my <a href="contact">contact page</a>.  This site is responsive, so it will work on any device.  Everything you see here was made from scratch and I'm still developing many improvements to this site everyday.</p>
+
+			</article>
+
+			<article class="bottomcontent">
+				<header>
+					<h2><a href="#" title="Second post">Cespedes, Bautista studs in the HR derby</a></h2>
+				</header>
+
+				<footer>
+					<p class="post-info">This post was written by Alex on 7/15/14 @ 2:03 EST</p>
+				</footer>
+
+
+					<p>Yeah, yeah.  The homerun derby.  The talking heads out there typically could care less about the derby, but I still enjoy watching baseball's best players crank dongs over the fence for a few hours.  Go ahead and marvel at this <del>Mike</del> Giancarlo Stanton bomb... <br><a href="https://www.youtube.com/watch?v=zpnhZHQIo2s">https://www.youtube.com/watch?v=zpnhZHQIo2s</a></p>
+
+					<iframe width="100%" height="315" src="//www.youtube.com/embed/zpnhZHQIo2s" frameborder="0" allowfullscreen></iframe>
+			</article>
+		</div>
+	</div>
+
+	<footer class ="mainFooter">
+		<p>Copyright &copy; 2014 <a href="index" title="ealexhaywood">ealexhaywood.com</a></p>
+	</footer>
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+
+<script>
+	$(document).ready(function() {
+		$('.topcontent').hide().slideDown(1000);
+		$('.bottomcontent').hide().slideDown(1000);
+	});
+</script>
+
+</body>
+
+</html>

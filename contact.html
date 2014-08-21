@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang='en'>
+
+<head>
+	<title>E. Alexander Haywood -- Official Development Contact</title>
+	<meta charset="UTF-8" />
+
+	<link rel="stylesheet" href="contact.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="body">
+
+	<header class="mainHeader">
+		<img src="img/bal.jpg">
+
+		<nav><ul>
+			<li><a href="index">Home</a></li>
+			<li><a href="portfolio">Portfolio</a></li>
+			<li><a href="blog">Blog</a></li>
+			<li class="active"><a href="contact">Contact</a></li>
+		</ul></nav>
+	</header>
+
+<div class="mainContent">
+		<div class="content">
+			<article class="topcontent">
+				<header>
+					<h2><a href="#" title="User Input">Have A Question?</a></h2>
+				</header>
+
+
+				<p>Please feel free to send me an email with suggestions to make this website even more awesome! I am always looking for ways to improve styling, layout, and functionality!</p>
+
+			<form action="mailto:ealexhaywood@gmail.com" enctype="text/plain" method="post">
+				<p>Name: <br><input name="Name" type="text" id="Name" size="98%"></p>
+				<p>E-mail address: <br><input name="E-mail" type="text" id="E-mail" size="98%"></p>
+				<p>Comment:</p>
+				<p><textarea name="Comment" cols="55" rows="5" id="Comment"></textarea></p>
+				<p><input type="submit" id="Submit" value="Submit"></p>
+			</form>
+
+			</article>
+
+		</div>
+</div>
+
+
+	<aside class="top-sidebar">
+		<article>
+			<h2>Contact Info</h2>
+			<p><b>E. Alex Haywood</b><br>
+				<a href="mailto:ealexhaywood@gmail.com">ealexhaywood@gmail.com</a><br>
+				Phone number available upon request.
+			</p>
+		</article>
+	</aside>
+
+	<footer class ="mainFooter">
+		<p>Copyright &copy; 2014 <a href="index" title="ealexhaywood">ealexhaywood.com</a></p>
+	</footer>
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+
+<script>
+	$(document).ready(function() {
+		$('.topcontent').hide().slideDown(1000);
+		$('.top-sidebar').hide().slideDown(1000);
+	});
+</script>
+
+</body>
+
+
+
+</html>
